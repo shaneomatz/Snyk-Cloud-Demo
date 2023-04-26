@@ -3,15 +3,15 @@
 #CHANGE THIS - lower case only
 variable "victim_company" {
   type        = string
-  description = "For naming purposes"
+  description = "for naming purposes"
   default     = "testpatch"
 }
 
 #CHANGE THIS
 variable "owner" {
   type        = string
-  description = "For Tagging and Filtering purposes"
-  default     = "Patch"
+  description = "for tagging and filtering purposes"
+  default     = "patch"
 }
 
 #AWS Region
